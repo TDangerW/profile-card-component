@@ -1,0 +1,92 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.img-top {
+    position: relative;
+    z-index: 0;
+    margin: -450px -160px;
+}
+
+.img-bottom {
+    position: relative;
+    z-index: 0;
+    margin: -350px 750px;
+}
+
+body {
+    height: 98vh;
+    overflow: hidden;
+    background-color: rgb(47, 172, 186);
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    height: 400px;
+    width: 400px;
+    margin: 150px 570px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+p {
+    color: gray;
+}
+
+strong {
+    color: black;
+    font-size: large;
+}
+
+.card {
+    width: 400px;
+    height: 160px;
+    border-radius: 15px 15px 0 0;
+    background-image: url('./images/bg-pattern-card.svg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 90px;
+    margin-top: 110px;
+}
+
+.bio {
+    width: 100%;
+    text-align: center;
+}
+
+.stats {
+    width: 100%;
+    border-top: 2px gainsboro solid;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 5px;
+    }
+
+    p {
+        font-size: smaller;
+        margin: 0;
+    }
+
+    h3 {
+        margin: 0;
+    }
+}
